@@ -26,7 +26,7 @@ export default function FuncionsBoton(){
 
     
     return(<>
-    <h1>Contador FuncBoton.jsx</h1>
+    <h1>Contador FuncBoton.jsx de coloresCss</h1>
     <div>Valor actual en FuncBoton: {valor}</div>
     <BotonB estilo={coloresCss(valor)} funcion={sumarValor} titulo="Sumar Valor"/>
     <BotonB estilo={coloresCss(valor)} funcion={restarValor}  titulo = "Restar Valor"/>
