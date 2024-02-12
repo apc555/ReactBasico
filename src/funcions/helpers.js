@@ -1,7 +1,7 @@
-const coloresCss = ()=>{
+const coloresCss = (valor)=>{
     
     let css = "neutro";
-    
+
     if( valor >= 5) {
         css="vermello"
 
@@ -14,4 +14,8 @@ const coloresCss = ()=>{
     }
 
     return css
+}
+
+export {
+    coloresCss
 }
