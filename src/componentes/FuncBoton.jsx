@@ -14,9 +14,6 @@ export default function FuncionsBoton(){
     }
 
     const restarValor =  () => {
-        const styles = {
-                color : 'red'
-            }
         setValor(valor-1) 
     }
 

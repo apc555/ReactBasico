@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-export default function Boton(){
+export default function BotonA(){
     let [valor,setValor] = useState(0)
 
     const sumarValor =  () => {
@@ -19,7 +19,7 @@ export default function Boton(){
     }
 
     return(<>
-    <h1>Contador Boton.jsx</h1>
+    <h1>Contador BotonA.jsx</h1>
     <div>Valor actual : {valor}</div>
     <button onClick={sumarValor}>Sumar 1</button>
     <button onClick={restarValor}>Restar 1</button>

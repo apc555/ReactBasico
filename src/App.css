@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+input:focus{
+  background-color: lightgoldenrodyellow;
+
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+
 .verde {
   background-color: lightgreen;
 }
@@ -16,8 +30,8 @@
 }
 
 .neutro{
-  background-color: darkgrey;
-  color: white;
+  background-color: rgb(234, 235, 227);
+  color: rgb(26, 25, 25);
 }
 
 @media (prefers-reduced-motion: no-preference) {
